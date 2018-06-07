@@ -1,3 +1,106 @@
 body {
-    margin: 0;
+    max-width: 600px;
+    margin: 60px auto 0; 
+    font-family: sans-serif;
+    line-height: 1.5;
 }
+
+
+h2{
+    border-top: solid 5px #425ff4;
+    margin top: 50px; 
+    padding top: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+h2 span {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 18px;
+    color: red;
+    display: inline-block;
+    margin-left: 255px;
+}
+
+
+
+p{
+    color: #212220
+}
+
+#primeiro{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
+.azul{
+    color: blue
+}
+
+
+[nome=menor]{
+    border: dotted 1px black;
+}
+
+
+footer{
+    margin-bottom: 100px;
+}
+
+ol{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 60px;
+}
+
+
+
+li{
+    background-color: rgb(78, 255, 78);
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+
+li a {
+    text-decoration: none;
+}
+
+li a:visited{
+    color: orange;  
+}
+
+li a:hover{
+    color: greenyellow;
+    font-size: 18px;
+}
+
+.final{
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+    border: none;
+    color: blue;
+    font-size: 24px;
+    margin: auto 15px;
+
+}
+
+.final:nth-last-child(1){
+    background-color: white;
+}
+
+.final:nth-last-child(2){
+    background-color: white(8, 8, 221);
+}
+.final:nth-last-child(3){
+    background-color: rgb(8, 8, 221);
+}.final:nth-last-child(4){
+    background-color: rgb(8, 8, 221);
+}
+.final:nth-last-child(5){
+    background-color: rgb(8, 8, 221);
+
+
