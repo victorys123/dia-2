@@ -102,5 +102,15 @@ li a:hover{
 }
 .final:nth-last-child(5){
     background-color: rgb(8, 8, 221);
+}
 
 
+img {
+    border: red 3px solid;
+    position: absolute;
+    top: 70px;
+
+}
+article{
+    position: relative;
+}
